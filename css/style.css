@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
+html {
+  font-size: 62.5%; }
+
+body {
+  color: white;
+  background-color: black; }
+
+nav {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  background-color: darkred; }
+  nav a {
+    margin: 0px 110px;
+    list-style: none;
+    text-decoration: none; }
+    nav a ul {
+      display: inline-block; }
+      nav a ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 10px 6px;
+        font-family: "Montserrat", sans-serif;
+        color: white;
+        font-size: 2rem; }
+        nav a ul li a:hover {
+          color: darkred; }
+
+.pegassi {
+  margin-left: 10px;
+  width: 5vw; }
+
+.text-titulo {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 40px;
+  margin-bottom: 40px; }
+
+.text-back {
+  text-decoration: none;
+  text-align: center;
+  font-size: 30px;
+  background-color: grey;
+  color: #F5F0F0; }
+
+footer a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  text-decoration: none;
+  list-style: none; }
+  footer a p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    text-decoration: none;
+    list-style: none; }
+
+.footer {
+  display: flex; }
+
+.text-center {
+  border-top-color: #F5F0F0;
+  border-top: solid;
+  justify-content: space-between;
+  display: flex;
+  padding: 50px; }
+
+.redes-sociales {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 10px; }
+
+.copyright {
+  display: flex;
+  justify-content: flex-start; }

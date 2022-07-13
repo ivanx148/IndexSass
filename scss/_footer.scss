@@ -1,0 +1,38 @@
+footer{
+		a{
+			font-family: $mainFont;
+	font-size: $textMd;
+	text-decoration: none;
+	list-style: none;
+			p{
+				font-family: $mainFont;
+			font-size:$textMd;
+			text-decoration: none;
+			list-style: none;
+			}	
+
+		}
+	
+}
+
+
+.footer{
+	display: flex;
+}
+
+.text-center{
+	border-top-color: $white;
+	border-top: solid;
+	justify-content: space-between;
+	display: flex;
+	padding: 50px;
+}
+.redes-sociales{
+	display: flex;
+	justify-content:flex-end;
+	padding: 0px 10px;
+}
+.copyright{
+	display: flex;
+	justify-content: flex-start;
+}
